@@ -13,3 +13,17 @@ body {
 body {
     background-image: url(./images/background.png);
 }
+
+.wrapper {
+    box-shadow: inset 0 0 20px red;
+    width: 1076px;
+    margin: 260px auto;
+    display: flex;
+}
+
+.sidebar {
+    background-image: url(./images/sidebar-background.png);
+    width: 244px;
+    padding: 16px;
+    color: #999999;
+}
