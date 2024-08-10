@@ -4,6 +4,17 @@ body {
     padding: unset;
 }
 
+h1 {
+    margin: unset;
+    font-size: unset;
+    font-weight: unset;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
 /* Typography */
 :root {
     font-family: 'montserrat';
@@ -19,11 +30,65 @@ body {
     width: 1076px;
     margin: 260px auto;
     display: flex;
+    border-radius: 6px;
+    overflow: hidden;
 }
 
 .sidebar {
     background-image: url(./images/sidebar-background.png);
     width: 244px;
+    height: 538px;
     padding: 16px;
+    box-sizing: border-box;
+}
+
+.sidebar_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -26px;
+}
+
+.title {
+    color: white; 
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 8px solid #444444;
+    margin-top: 10px;
+}
+
+.sidebar_header img {
+    width: 79px;
+}
+
+.sidebar p {
     color: #999999;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+.header_control {
+    width: 212;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.18em;
+    text-indent: 0.18em;
+}
+
+.location {
+    height: 22px;
+    background-color: #0468FF;
+    color: white;
+    margin-bottom: 6px;
+    border-radius: 2px;
+    line-height: 22px;
+}
+
+.share {
+    height: 22px;
+    background-color: #D9D9D9;
+    color: #333333;
+    border-radius: 2px;
+    line-height: 22px;
 }
