@@ -3,3 +3,13 @@ body {
     margin: unset;
     padding: unset;
 }
+
+/* Typography */
+:root {
+    font-family: 'montserrat';
+}
+
+/*Design*/
+body {
+    background-image: url(./images/background.png);
+}
