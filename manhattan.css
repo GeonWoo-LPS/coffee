@@ -11,4 +11,13 @@ body {
     display: grid;
     justify-content: center;
     align-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.contents {
+    box-shadow: inset 0 0 10px red;
+    display: grid;
+    grid-template-columns: 244px minmax( 0, 832px);
+    grid-template-rows: minmax(600px , auto);
 }
