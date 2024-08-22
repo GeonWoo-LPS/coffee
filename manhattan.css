@@ -2,3 +2,10 @@
 body {
     margin: unset;
 }
+
+/* Component */
+.wrapper {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(./images/background.png);
+}
